@@ -40,7 +40,7 @@
 
 $language_data = array (
     'LANG_NAME' => 'KSP',
-    'COMMENT_SINGLE' => array(1 => ''),
+    'COMMENT_SINGLE' => array(),
     'COMMENT_MULTI' => array('{' => '}'),
     //Compiler directives
     //'COMMENT_REGEXP' => array(2 => //'/\\{\\$.*?}|\\(\\*\\$.*?\\*\\)/U'),
@@ -326,7 +326,6 @@ $language_data = array (
             8 => 'color: #000066;',
             ),
         'COMMENTS' => array(
-            1 => 'color: #808080; font-style: italic;',
             'MULTI' => 'color: #808080; font-style: italic;'
             ),
         'ESCAPE_CHAR' => array(
